@@ -1,6 +1,6 @@
 ﻿namespace Nk_Colletion_New
 {
-    partial class Form1
+    partial class Form_login
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,183 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_login));
+            pictureBox1 = new PictureBox();
+            lbl_recuperar_contrasena = new LinkLabel();
+            btnAcceder = new Button();
+            panel3 = new Panel();
+            txtPassword = new TextBox();
+            label2 = new Label();
+            panel2 = new Panel();
+            txtUsuario = new TextBox();
+            Username = new Label();
+            label1 = new Label();
+            pictureBox2 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel3.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Left;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(341, 560);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            // 
+            // lbl_recuperar_contrasena
+            // 
+            lbl_recuperar_contrasena.ActiveLinkColor = Color.Black;
+            lbl_recuperar_contrasena.AutoSize = true;
+            lbl_recuperar_contrasena.Font = new Font("Century Gothic", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_recuperar_contrasena.LinkBehavior = LinkBehavior.NeverUnderline;
+            lbl_recuperar_contrasena.LinkColor = Color.Gray;
+            lbl_recuperar_contrasena.Location = new Point(508, 462);
+            lbl_recuperar_contrasena.Name = "lbl_recuperar_contrasena";
+            lbl_recuperar_contrasena.Size = new Size(218, 21);
+            lbl_recuperar_contrasena.TabIndex = 19;
+            lbl_recuperar_contrasena.TabStop = true;
+            lbl_recuperar_contrasena.Text = "¿Olvidaste tu contraseña?";
+            // 
+            // btnAcceder
+            // 
+            btnAcceder.BackColor = Color.Black;
+            btnAcceder.FlatAppearance.BorderSize = 0;
+            btnAcceder.FlatStyle = FlatStyle.Flat;
+            btnAcceder.Font = new Font("Century Gothic", 11F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            btnAcceder.ForeColor = Color.White;
+            btnAcceder.Location = new Point(422, 393);
+            btnAcceder.Name = "btnAcceder";
+            btnAcceder.Size = new Size(395, 41);
+            btnAcceder.TabIndex = 18;
+            btnAcceder.Text = "Acceder";
+            btnAcceder.UseVisualStyleBackColor = false;
+            // 
+            // panel3
+            // 
+            panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(txtPassword);
+            panel3.Controls.Add(label2);
+            panel3.Location = new Point(422, 309);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(394, 59);
+            panel3.TabIndex = 17;
+            // 
+            // txtPassword
+            // 
+            txtPassword.BorderStyle = BorderStyle.None;
+            txtPassword.ForeColor = Color.FromArgb(64, 64, 64);
+            txtPassword.Location = new Point(15, 22);
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(366, 24);
+            txtPassword.TabIndex = 1;
+            // 
+            // label2
+            // 
+            label2.Dock = DockStyle.Top;
+            label2.Font = new Font("Century Gothic", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Gray;
+            label2.Location = new Point(0, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(392, 38);
+            label2.TabIndex = 0;
+            label2.Text = "Contraseña";
+            // 
+            // panel2
+            // 
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(txtUsuario);
+            panel2.Controls.Add(Username);
+            panel2.Location = new Point(422, 233);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(394, 59);
+            panel2.TabIndex = 16;
+            // 
+            // txtUsuario
+            // 
+            txtUsuario.BorderStyle = BorderStyle.None;
+            txtUsuario.ForeColor = Color.FromArgb(64, 64, 64);
+            txtUsuario.Location = new Point(16, 29);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(366, 24);
+            txtUsuario.TabIndex = 1;
+            // 
+            // Username
+            // 
+            Username.Dock = DockStyle.Top;
+            Username.Font = new Font("Century Gothic", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Username.ForeColor = Color.Gray;
+            Username.Location = new Point(0, 0);
+            Username.Name = "Username";
+            Username.Size = new Size(392, 38);
+            Username.TabIndex = 0;
+            Username.Text = "Usuario";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Century Gothic", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(64, 64, 64);
+            label1.Location = new Point(483, 188);
+            label1.Name = "label1";
+            label1.Size = new Size(243, 25);
+            label1.TabIndex = 15;
+            label1.Text = "Bienvenido al sistema";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(544, 40);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(139, 129);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 14;
+            pictureBox2.TabStop = false;
+            // 
+            // Form_login
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(907, 560);
+            Controls.Add(lbl_recuperar_contrasena);
+            Controls.Add(btnAcceder);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(label1);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "Form_login";
+            Text = "Form1";
+            Load += Form_login_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
+        private LinkLabel lbl_recuperar_contrasena;
+        private Button btnAcceder;
+        private Panel panel3;
+        private TextBox txtPassword;
+        private Label label2;
+        private Panel panel2;
+        private TextBox txtUsuario;
+        private Label Username;
+        private Label label1;
+        private PictureBox pictureBox2;
     }
 }
