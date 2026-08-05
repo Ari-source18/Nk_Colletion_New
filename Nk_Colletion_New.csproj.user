@@ -16,6 +16,9 @@
     <Compile Update="Form5.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formapertura.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form_credito.cs">
       <SubType>Form</SubType>
     </Compile>
