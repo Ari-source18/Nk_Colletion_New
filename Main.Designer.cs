@@ -30,6 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             Panel_Padre = new Panel();
+            label1 = new Label();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            button12 = new Button();
+            button13 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button3 = new Button();
+            button2 = new Button();
             lbl_Cerrar_sesion = new Label();
             btn_Acerca_de = new Button();
             btn_Mantenimiento = new Button();
@@ -46,19 +59,6 @@
             btn_Clientes = new Button();
             btn_Usuario = new Button();
             button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            label1 = new Label();
             Panel_Hijo = new Panel();
             panel1 = new Panel();
             Panel_Padre.SuspendLayout();
@@ -102,6 +102,235 @@
             Panel_Padre.Name = "Panel_Padre";
             Panel_Padre.Size = new Size(299, 824);
             Panel_Padre.TabIndex = 2;
+            Panel_Padre.Paint += Panel_Padre_Paint;
+            // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.Bottom;
+            label1.AutoSize = true;
+            label1.Font = new Font("SimSun", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonFace;
+            label1.Location = new Point(81, 784);
+            label1.Name = "label1";
+            label1.Size = new Size(138, 18);
+            label1.TabIndex = 32;
+            label1.Text = "Cerrar Sesión";
+            // 
+            // button7
+            // 
+            button7.Anchor = AnchorStyles.Bottom;
+            button7.BackColor = Color.Transparent;
+            button7.Cursor = Cursors.Hand;
+            button7.FlatAppearance.BorderColor = Color.White;
+            button7.FlatStyle = FlatStyle.Popup;
+            button7.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button7.ForeColor = SystemColors.ButtonHighlight;
+            button7.ImageAlign = ContentAlignment.MiddleLeft;
+            button7.ImageIndex = 5;
+            button7.Location = new Point(0, 704);
+            button7.Name = "button7";
+            button7.Size = new Size(299, 50);
+            button7.TabIndex = 31;
+            button7.Text = "Acerca de";
+            button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            button8.Anchor = AnchorStyles.Bottom;
+            button8.BackColor = Color.Transparent;
+            button8.Cursor = Cursors.Hand;
+            button8.FlatAppearance.BorderColor = Color.White;
+            button8.FlatStyle = FlatStyle.Popup;
+            button8.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button8.ForeColor = SystemColors.ButtonHighlight;
+            button8.ImageAlign = ContentAlignment.MiddleLeft;
+            button8.ImageIndex = 6;
+            button8.Location = new Point(0, 654);
+            button8.Name = "button8";
+            button8.Size = new Size(299, 50);
+            button8.TabIndex = 30;
+            button8.Text = "Mantenimiento";
+            button8.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            button9.Anchor = AnchorStyles.Bottom;
+            button9.BackColor = Color.Transparent;
+            button9.Cursor = Cursors.Hand;
+            button9.FlatAppearance.BorderColor = Color.White;
+            button9.FlatStyle = FlatStyle.Popup;
+            button9.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button9.ForeColor = SystemColors.ButtonHighlight;
+            button9.ImageAlign = ContentAlignment.MiddleLeft;
+            button9.ImageIndex = 7;
+            button9.Location = new Point(0, 604);
+            button9.Name = "button9";
+            button9.Size = new Size(299, 50);
+            button9.TabIndex = 29;
+            button9.Text = "Reporte";
+            button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            button10.Anchor = AnchorStyles.Bottom;
+            button10.BackColor = Color.Transparent;
+            button10.Cursor = Cursors.Hand;
+            button10.FlatAppearance.BorderColor = Color.White;
+            button10.FlatStyle = FlatStyle.Popup;
+            button10.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button10.ForeColor = SystemColors.ButtonHighlight;
+            button10.ImageAlign = ContentAlignment.MiddleLeft;
+            button10.ImageIndex = 8;
+            button10.Location = new Point(0, 531);
+            button10.Name = "button10";
+            button10.Size = new Size(299, 73);
+            button10.TabIndex = 28;
+            button10.Text = "Categoría";
+            button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            button11.Anchor = AnchorStyles.Bottom;
+            button11.BackColor = Color.Transparent;
+            button11.Cursor = Cursors.Hand;
+            button11.FlatAppearance.BorderColor = Color.White;
+            button11.FlatStyle = FlatStyle.Popup;
+            button11.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button11.ForeColor = SystemColors.ButtonHighlight;
+            button11.ImageAlign = ContentAlignment.MiddleLeft;
+            button11.ImageIndex = 9;
+            button11.Location = new Point(0, 481);
+            button11.Name = "button11";
+            button11.Size = new Size(299, 50);
+            button11.TabIndex = 27;
+            button11.Text = "Inventario";
+            button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            button12.Anchor = AnchorStyles.Bottom;
+            button12.BackColor = Color.Transparent;
+            button12.Cursor = Cursors.Hand;
+            button12.FlatAppearance.BorderColor = Color.White;
+            button12.FlatStyle = FlatStyle.Popup;
+            button12.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button12.ForeColor = SystemColors.ButtonHighlight;
+            button12.ImageAlign = ContentAlignment.MiddleLeft;
+            button12.ImageIndex = 10;
+            button12.Location = new Point(0, 431);
+            button12.Name = "button12";
+            button12.Size = new Size(299, 50);
+            button12.TabIndex = 26;
+            button12.Text = "Crédito";
+            button12.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            button13.Anchor = AnchorStyles.Bottom;
+            button13.BackColor = Color.Transparent;
+            button13.Cursor = Cursors.Hand;
+            button13.FlatAppearance.BorderColor = Color.White;
+            button13.FlatStyle = FlatStyle.Popup;
+            button13.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button13.ForeColor = SystemColors.ButtonHighlight;
+            button13.ImageAlign = ContentAlignment.MiddleLeft;
+            button13.ImageIndex = 11;
+            button13.Location = new Point(0, 384);
+            button13.Name = "button13";
+            button13.Size = new Size(299, 56);
+            button13.TabIndex = 25;
+            button13.Text = "Devolución";
+            button13.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.Anchor = AnchorStyles.Bottom;
+            button4.BackColor = Color.Transparent;
+            button4.Cursor = Cursors.Hand;
+            button4.FlatAppearance.BorderColor = Color.White;
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button4.ForeColor = SystemColors.ButtonHighlight;
+            button4.ImageAlign = ContentAlignment.MiddleLeft;
+            button4.ImageIndex = 12;
+            button4.Location = new Point(0, 334);
+            button4.Name = "button4";
+            button4.Size = new Size(299, 50);
+            button4.TabIndex = 24;
+            button4.Text = "Ventas";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
+            // button5
+            // 
+            button5.Anchor = AnchorStyles.Bottom;
+            button5.BackColor = Color.Transparent;
+            button5.FlatAppearance.BorderColor = Color.White;
+            button5.FlatStyle = FlatStyle.Popup;
+            button5.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button5.ForeColor = SystemColors.ButtonHighlight;
+            button5.ImageAlign = ContentAlignment.MiddleLeft;
+            button5.ImageIndex = 13;
+            button5.Location = new Point(0, 284);
+            button5.Name = "button5";
+            button5.Size = new Size(299, 50);
+            button5.TabIndex = 23;
+            button5.Text = "Caja";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            button6.Anchor = AnchorStyles.Bottom;
+            button6.BackColor = Color.Transparent;
+            button6.Cursor = Cursors.Hand;
+            button6.FlatAppearance.BorderColor = Color.White;
+            button6.FlatStyle = FlatStyle.Popup;
+            button6.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button6.ForeColor = SystemColors.ButtonHighlight;
+            button6.ImageAlign = ContentAlignment.MiddleLeft;
+            button6.ImageIndex = 0;
+            button6.Location = new Point(0, 227);
+            button6.Name = "button6";
+            button6.Size = new Size(299, 57);
+            button6.TabIndex = 22;
+            button6.Text = "Productos";
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.Anchor = AnchorStyles.Bottom;
+            button3.BackColor = Color.Transparent;
+            button3.Cursor = Cursors.Hand;
+            button3.FlatAppearance.BorderColor = Color.White;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button3.ForeColor = SystemColors.ButtonHighlight;
+            button3.ImageAlign = ContentAlignment.MiddleLeft;
+            button3.ImageIndex = 14;
+            button3.Location = new Point(0, 183);
+            button3.Name = "button3";
+            button3.Size = new Size(299, 50);
+            button3.TabIndex = 21;
+            button3.Text = "Compras";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Bottom;
+            button2.BackColor = Color.Transparent;
+            button2.Cursor = Cursors.Hand;
+            button2.FlatAppearance.BorderColor = Color.White;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Marlett", 14F, FontStyle.Bold);
+            button2.ForeColor = SystemColors.ButtonHighlight;
+            button2.ImageAlign = ContentAlignment.MiddleLeft;
+            button2.ImageIndex = 2;
+            button2.Location = new Point(-3, 141);
+            button2.Name = "button2";
+            button2.Size = new Size(299, 50);
+            button2.TabIndex = 20;
+            button2.Text = "Proveedores";
+            button2.UseVisualStyleBackColor = false;
             // 
             // lbl_Cerrar_sesion
             // 
@@ -386,233 +615,6 @@
             button1.TabIndex = 1;
             button1.Text = "NK Collection";
             button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.Anchor = AnchorStyles.Bottom;
-            button2.BackColor = Color.Transparent;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderColor = Color.White;
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.ImageIndex = 2;
-            button2.Location = new Point(-3, 141);
-            button2.Name = "button2";
-            button2.Size = new Size(299, 50);
-            button2.TabIndex = 20;
-            button2.Text = "Proveedores";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            button3.Anchor = AnchorStyles.Bottom;
-            button3.BackColor = Color.Transparent;
-            button3.Cursor = Cursors.Hand;
-            button3.FlatAppearance.BorderColor = Color.White;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button3.ForeColor = SystemColors.ButtonHighlight;
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.ImageIndex = 14;
-            button3.Location = new Point(0, 183);
-            button3.Name = "button3";
-            button3.Size = new Size(299, 50);
-            button3.TabIndex = 21;
-            button3.Text = "Compras";
-            button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            button4.Anchor = AnchorStyles.Bottom;
-            button4.BackColor = Color.Transparent;
-            button4.Cursor = Cursors.Hand;
-            button4.FlatAppearance.BorderColor = Color.White;
-            button4.FlatStyle = FlatStyle.Popup;
-            button4.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button4.ForeColor = SystemColors.ButtonHighlight;
-            button4.ImageAlign = ContentAlignment.MiddleLeft;
-            button4.ImageIndex = 12;
-            button4.Location = new Point(0, 334);
-            button4.Name = "button4";
-            button4.Size = new Size(299, 50);
-            button4.TabIndex = 24;
-            button4.Text = "Ventas";
-            button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            button5.Anchor = AnchorStyles.Bottom;
-            button5.BackColor = Color.Transparent;
-            button5.FlatAppearance.BorderColor = Color.White;
-            button5.FlatStyle = FlatStyle.Popup;
-            button5.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button5.ForeColor = SystemColors.ButtonHighlight;
-            button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.ImageIndex = 13;
-            button5.Location = new Point(0, 284);
-            button5.Name = "button5";
-            button5.Size = new Size(299, 50);
-            button5.TabIndex = 23;
-            button5.Text = "Caja";
-            button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            button6.Anchor = AnchorStyles.Bottom;
-            button6.BackColor = Color.Transparent;
-            button6.Cursor = Cursors.Hand;
-            button6.FlatAppearance.BorderColor = Color.White;
-            button6.FlatStyle = FlatStyle.Popup;
-            button6.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button6.ForeColor = SystemColors.ButtonHighlight;
-            button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.ImageIndex = 0;
-            button6.Location = new Point(0, 227);
-            button6.Name = "button6";
-            button6.Size = new Size(299, 57);
-            button6.TabIndex = 22;
-            button6.Text = "Productos";
-            button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            button7.Anchor = AnchorStyles.Bottom;
-            button7.BackColor = Color.Transparent;
-            button7.Cursor = Cursors.Hand;
-            button7.FlatAppearance.BorderColor = Color.White;
-            button7.FlatStyle = FlatStyle.Popup;
-            button7.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button7.ForeColor = SystemColors.ButtonHighlight;
-            button7.ImageAlign = ContentAlignment.MiddleLeft;
-            button7.ImageIndex = 5;
-            button7.Location = new Point(0, 704);
-            button7.Name = "button7";
-            button7.Size = new Size(299, 50);
-            button7.TabIndex = 31;
-            button7.Text = "Acerca de";
-            button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            button8.Anchor = AnchorStyles.Bottom;
-            button8.BackColor = Color.Transparent;
-            button8.Cursor = Cursors.Hand;
-            button8.FlatAppearance.BorderColor = Color.White;
-            button8.FlatStyle = FlatStyle.Popup;
-            button8.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button8.ForeColor = SystemColors.ButtonHighlight;
-            button8.ImageAlign = ContentAlignment.MiddleLeft;
-            button8.ImageIndex = 6;
-            button8.Location = new Point(0, 654);
-            button8.Name = "button8";
-            button8.Size = new Size(299, 50);
-            button8.TabIndex = 30;
-            button8.Text = "Mantenimiento";
-            button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            button9.Anchor = AnchorStyles.Bottom;
-            button9.BackColor = Color.Transparent;
-            button9.Cursor = Cursors.Hand;
-            button9.FlatAppearance.BorderColor = Color.White;
-            button9.FlatStyle = FlatStyle.Popup;
-            button9.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button9.ForeColor = SystemColors.ButtonHighlight;
-            button9.ImageAlign = ContentAlignment.MiddleLeft;
-            button9.ImageIndex = 7;
-            button9.Location = new Point(0, 604);
-            button9.Name = "button9";
-            button9.Size = new Size(299, 50);
-            button9.TabIndex = 29;
-            button9.Text = "Reporte";
-            button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            button10.Anchor = AnchorStyles.Bottom;
-            button10.BackColor = Color.Transparent;
-            button10.Cursor = Cursors.Hand;
-            button10.FlatAppearance.BorderColor = Color.White;
-            button10.FlatStyle = FlatStyle.Popup;
-            button10.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button10.ForeColor = SystemColors.ButtonHighlight;
-            button10.ImageAlign = ContentAlignment.MiddleLeft;
-            button10.ImageIndex = 8;
-            button10.Location = new Point(0, 531);
-            button10.Name = "button10";
-            button10.Size = new Size(299, 73);
-            button10.TabIndex = 28;
-            button10.Text = "Categoría";
-            button10.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            button11.Anchor = AnchorStyles.Bottom;
-            button11.BackColor = Color.Transparent;
-            button11.Cursor = Cursors.Hand;
-            button11.FlatAppearance.BorderColor = Color.White;
-            button11.FlatStyle = FlatStyle.Popup;
-            button11.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button11.ForeColor = SystemColors.ButtonHighlight;
-            button11.ImageAlign = ContentAlignment.MiddleLeft;
-            button11.ImageIndex = 9;
-            button11.Location = new Point(0, 481);
-            button11.Name = "button11";
-            button11.Size = new Size(299, 50);
-            button11.TabIndex = 27;
-            button11.Text = "Inventario";
-            button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            button12.Anchor = AnchorStyles.Bottom;
-            button12.BackColor = Color.Transparent;
-            button12.Cursor = Cursors.Hand;
-            button12.FlatAppearance.BorderColor = Color.White;
-            button12.FlatStyle = FlatStyle.Popup;
-            button12.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button12.ForeColor = SystemColors.ButtonHighlight;
-            button12.ImageAlign = ContentAlignment.MiddleLeft;
-            button12.ImageIndex = 10;
-            button12.Location = new Point(0, 431);
-            button12.Name = "button12";
-            button12.Size = new Size(299, 50);
-            button12.TabIndex = 26;
-            button12.Text = "Crédito";
-            button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            button13.Anchor = AnchorStyles.Bottom;
-            button13.BackColor = Color.Transparent;
-            button13.Cursor = Cursors.Hand;
-            button13.FlatAppearance.BorderColor = Color.White;
-            button13.FlatStyle = FlatStyle.Popup;
-            button13.Font = new Font("Marlett", 14F, FontStyle.Bold);
-            button13.ForeColor = SystemColors.ButtonHighlight;
-            button13.ImageAlign = ContentAlignment.MiddleLeft;
-            button13.ImageIndex = 11;
-            button13.Location = new Point(0, 384);
-            button13.Name = "button13";
-            button13.Size = new Size(299, 56);
-            button13.TabIndex = 25;
-            button13.Text = "Devolución";
-            button13.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            label1.Anchor = AnchorStyles.Bottom;
-            label1.AutoSize = true;
-            label1.Font = new Font("SimSun", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.ButtonFace;
-            label1.Location = new Point(81, 784);
-            label1.Name = "label1";
-            label1.Size = new Size(138, 18);
-            label1.TabIndex = 32;
-            label1.Text = "Cerrar Sesión";
             // 
             // Panel_Hijo
             // 
