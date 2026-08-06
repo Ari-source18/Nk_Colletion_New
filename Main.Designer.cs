@@ -151,6 +151,7 @@
             button8.TabIndex = 30;
             button8.Text = "Mantenimiento";
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -169,6 +170,7 @@
             button9.TabIndex = 29;
             button9.Text = "Reporte";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -205,6 +207,7 @@
             button11.TabIndex = 27;
             button11.Text = "Inventario";
             button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -223,6 +226,7 @@
             button12.TabIndex = 26;
             button12.Text = "Crédito";
             button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
@@ -241,6 +245,7 @@
             button13.TabIndex = 25;
             button13.Text = "Devolución";
             button13.UseVisualStyleBackColor = false;
+            button13.Click += button13_Click;
             // 
             // button4
             // 
@@ -277,6 +282,7 @@
             button5.TabIndex = 23;
             button5.Text = "Caja";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -331,6 +337,7 @@
             button2.TabIndex = 20;
             button2.Text = "Proveedores";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // lbl_Cerrar_sesion
             // 
@@ -576,6 +583,7 @@
             btn_Clientes.TabIndex = 6;
             btn_Clientes.Text = "Clientes";
             btn_Clientes.UseVisualStyleBackColor = false;
+            btn_Clientes.Click += btn_Clientes_Click;
             // 
             // btn_Usuario
             // 

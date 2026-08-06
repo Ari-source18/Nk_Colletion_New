@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Nk_Colletion_New
 {
-    public partial class Form_proveedores : Form
+    public partial class Form_control_egresos : Form
     {
-        public Form_proveedores()
+        public Form_control_egresos()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

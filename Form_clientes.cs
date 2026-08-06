@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Nk_Colletion_New
 {
-    public partial class Form_proveedores : Form
+    public partial class Form_clientes : Form
     {
-        public Form_proveedores()
+        public Form_clientes()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Form_clientes_Load(object sender, EventArgs e)
         {
 
         }
