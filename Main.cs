@@ -36,10 +36,50 @@ namespace Nk_Colletion_New
         {
 
         }
-       
+
         private void button4_Click(object sender, EventArgs e)
         {
             AbrirFormularioEnPanel(new Form_ventas());
+        }
+
+        private void btn_Clientes_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Form_clientes());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Form_proveedores());
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Form_caja());
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Form_mantenimiento());
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Form_reporte());
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Form_credito());
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Form_devoluciones());
         }
     }
 }
