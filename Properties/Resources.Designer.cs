@@ -113,9 +113,29 @@ namespace Nk_Colletion_New.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_editar_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-editar-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_editar_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-editar-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_eliminar_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-eliminar-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +156,16 @@ namespace Nk_Colletion_New.Properties {
         internal static System.Drawing.Bitmap icons8_lista_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-lista-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_más_24 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-más-24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
