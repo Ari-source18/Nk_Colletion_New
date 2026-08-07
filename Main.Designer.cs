@@ -100,7 +100,7 @@
             Panel_Padre.Dock = DockStyle.Left;
             Panel_Padre.Location = new Point(0, 0);
             Panel_Padre.Name = "Panel_Padre";
-            Panel_Padre.Size = new Size(299, 824);
+            Panel_Padre.Size = new Size(299, 892);
             Panel_Padre.TabIndex = 2;
             Panel_Padre.Paint += Panel_Padre_Paint;
             // 
@@ -110,7 +110,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("SimSun", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ButtonFace;
-            label1.Location = new Point(81, 784);
+            label1.Location = new Point(81, 852);
             label1.Name = "label1";
             label1.Size = new Size(138, 18);
             label1.TabIndex = 32;
@@ -127,7 +127,7 @@
             button7.ForeColor = SystemColors.ButtonHighlight;
             button7.ImageAlign = ContentAlignment.MiddleLeft;
             button7.ImageIndex = 5;
-            button7.Location = new Point(0, 704);
+            button7.Location = new Point(0, 772);
             button7.Name = "button7";
             button7.Size = new Size(299, 50);
             button7.TabIndex = 31;
@@ -145,7 +145,7 @@
             button8.ForeColor = SystemColors.ButtonHighlight;
             button8.ImageAlign = ContentAlignment.MiddleLeft;
             button8.ImageIndex = 6;
-            button8.Location = new Point(0, 654);
+            button8.Location = new Point(0, 722);
             button8.Name = "button8";
             button8.Size = new Size(299, 50);
             button8.TabIndex = 30;
@@ -164,7 +164,7 @@
             button9.ForeColor = SystemColors.ButtonHighlight;
             button9.ImageAlign = ContentAlignment.MiddleLeft;
             button9.ImageIndex = 7;
-            button9.Location = new Point(0, 604);
+            button9.Location = new Point(0, 672);
             button9.Name = "button9";
             button9.Size = new Size(299, 50);
             button9.TabIndex = 29;
@@ -183,7 +183,7 @@
             button10.ForeColor = SystemColors.ButtonHighlight;
             button10.ImageAlign = ContentAlignment.MiddleLeft;
             button10.ImageIndex = 8;
-            button10.Location = new Point(0, 531);
+            button10.Location = new Point(0, 599);
             button10.Name = "button10";
             button10.Size = new Size(299, 73);
             button10.TabIndex = 28;
@@ -201,7 +201,7 @@
             button11.ForeColor = SystemColors.ButtonHighlight;
             button11.ImageAlign = ContentAlignment.MiddleLeft;
             button11.ImageIndex = 9;
-            button11.Location = new Point(0, 481);
+            button11.Location = new Point(0, 549);
             button11.Name = "button11";
             button11.Size = new Size(299, 50);
             button11.TabIndex = 27;
@@ -220,7 +220,7 @@
             button12.ForeColor = SystemColors.ButtonHighlight;
             button12.ImageAlign = ContentAlignment.MiddleLeft;
             button12.ImageIndex = 10;
-            button12.Location = new Point(0, 431);
+            button12.Location = new Point(0, 499);
             button12.Name = "button12";
             button12.Size = new Size(299, 50);
             button12.TabIndex = 26;
@@ -239,7 +239,7 @@
             button13.ForeColor = SystemColors.ButtonHighlight;
             button13.ImageAlign = ContentAlignment.MiddleLeft;
             button13.ImageIndex = 11;
-            button13.Location = new Point(0, 384);
+            button13.Location = new Point(0, 452);
             button13.Name = "button13";
             button13.Size = new Size(299, 56);
             button13.TabIndex = 25;
@@ -258,7 +258,7 @@
             button4.ForeColor = SystemColors.ButtonHighlight;
             button4.ImageAlign = ContentAlignment.MiddleLeft;
             button4.ImageIndex = 12;
-            button4.Location = new Point(0, 334);
+            button4.Location = new Point(0, 402);
             button4.Name = "button4";
             button4.Size = new Size(299, 50);
             button4.TabIndex = 24;
@@ -276,7 +276,7 @@
             button5.ForeColor = SystemColors.ButtonHighlight;
             button5.ImageAlign = ContentAlignment.MiddleLeft;
             button5.ImageIndex = 13;
-            button5.Location = new Point(0, 284);
+            button5.Location = new Point(0, 352);
             button5.Name = "button5";
             button5.Size = new Size(299, 50);
             button5.TabIndex = 23;
@@ -295,7 +295,7 @@
             button6.ForeColor = SystemColors.ButtonHighlight;
             button6.ImageAlign = ContentAlignment.MiddleLeft;
             button6.ImageIndex = 0;
-            button6.Location = new Point(0, 227);
+            button6.Location = new Point(0, 295);
             button6.Name = "button6";
             button6.Size = new Size(299, 57);
             button6.TabIndex = 22;
@@ -313,7 +313,7 @@
             button3.ForeColor = SystemColors.ButtonHighlight;
             button3.ImageAlign = ContentAlignment.MiddleLeft;
             button3.ImageIndex = 14;
-            button3.Location = new Point(0, 183);
+            button3.Location = new Point(0, 251);
             button3.Name = "button3";
             button3.Size = new Size(299, 50);
             button3.TabIndex = 21;
@@ -331,7 +331,7 @@
             button2.ForeColor = SystemColors.ButtonHighlight;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
             button2.ImageIndex = 2;
-            button2.Location = new Point(-3, 141);
+            button2.Location = new Point(-3, 209);
             button2.Name = "button2";
             button2.Size = new Size(299, 50);
             button2.TabIndex = 20;
@@ -345,7 +345,7 @@
             lbl_Cerrar_sesion.AutoSize = true;
             lbl_Cerrar_sesion.Font = new Font("SimSun", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbl_Cerrar_sesion.ForeColor = SystemColors.ButtonFace;
-            lbl_Cerrar_sesion.Location = new Point(127, 1521);
+            lbl_Cerrar_sesion.Location = new Point(127, 1589);
             lbl_Cerrar_sesion.Name = "lbl_Cerrar_sesion";
             lbl_Cerrar_sesion.Size = new Size(138, 18);
             lbl_Cerrar_sesion.TabIndex = 19;
@@ -362,7 +362,7 @@
             btn_Acerca_de.ForeColor = SystemColors.ButtonHighlight;
             btn_Acerca_de.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Acerca_de.ImageIndex = 5;
-            btn_Acerca_de.Location = new Point(49, 1466);
+            btn_Acerca_de.Location = new Point(49, 1534);
             btn_Acerca_de.Name = "btn_Acerca_de";
             btn_Acerca_de.Size = new Size(299, 50);
             btn_Acerca_de.TabIndex = 18;
@@ -380,7 +380,7 @@
             btn_Mantenimiento.ForeColor = SystemColors.ButtonHighlight;
             btn_Mantenimiento.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Mantenimiento.ImageIndex = 6;
-            btn_Mantenimiento.Location = new Point(49, 1416);
+            btn_Mantenimiento.Location = new Point(49, 1484);
             btn_Mantenimiento.Name = "btn_Mantenimiento";
             btn_Mantenimiento.Size = new Size(299, 50);
             btn_Mantenimiento.TabIndex = 17;
@@ -398,7 +398,7 @@
             btn_Reporte.ForeColor = SystemColors.ButtonHighlight;
             btn_Reporte.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Reporte.ImageIndex = 7;
-            btn_Reporte.Location = new Point(49, 1366);
+            btn_Reporte.Location = new Point(49, 1434);
             btn_Reporte.Name = "btn_Reporte";
             btn_Reporte.Size = new Size(299, 50);
             btn_Reporte.TabIndex = 16;
@@ -416,7 +416,7 @@
             btn_Categoria.ForeColor = SystemColors.ButtonHighlight;
             btn_Categoria.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Categoria.ImageIndex = 8;
-            btn_Categoria.Location = new Point(49, 1293);
+            btn_Categoria.Location = new Point(49, 1361);
             btn_Categoria.Name = "btn_Categoria";
             btn_Categoria.Size = new Size(299, 73);
             btn_Categoria.TabIndex = 15;
@@ -434,7 +434,7 @@
             btn_Inventario.ForeColor = SystemColors.ButtonHighlight;
             btn_Inventario.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Inventario.ImageIndex = 9;
-            btn_Inventario.Location = new Point(49, 1243);
+            btn_Inventario.Location = new Point(49, 1311);
             btn_Inventario.Name = "btn_Inventario";
             btn_Inventario.Size = new Size(299, 50);
             btn_Inventario.TabIndex = 14;
@@ -452,7 +452,7 @@
             btn_Credito.ForeColor = SystemColors.ButtonHighlight;
             btn_Credito.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Credito.ImageIndex = 10;
-            btn_Credito.Location = new Point(49, 1193);
+            btn_Credito.Location = new Point(49, 1261);
             btn_Credito.Name = "btn_Credito";
             btn_Credito.Size = new Size(299, 50);
             btn_Credito.TabIndex = 13;
@@ -470,7 +470,7 @@
             btn_Devolucion.ForeColor = SystemColors.ButtonHighlight;
             btn_Devolucion.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Devolucion.ImageIndex = 11;
-            btn_Devolucion.Location = new Point(49, 1143);
+            btn_Devolucion.Location = new Point(49, 1211);
             btn_Devolucion.Name = "btn_Devolucion";
             btn_Devolucion.Size = new Size(299, 50);
             btn_Devolucion.TabIndex = 12;
@@ -488,7 +488,7 @@
             btn_Ventas.ForeColor = SystemColors.ButtonHighlight;
             btn_Ventas.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Ventas.ImageIndex = 12;
-            btn_Ventas.Location = new Point(49, 1093);
+            btn_Ventas.Location = new Point(49, 1161);
             btn_Ventas.Name = "btn_Ventas";
             btn_Ventas.Size = new Size(299, 50);
             btn_Ventas.TabIndex = 11;
@@ -505,7 +505,7 @@
             btn_Caja.ForeColor = SystemColors.ButtonHighlight;
             btn_Caja.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Caja.ImageIndex = 13;
-            btn_Caja.Location = new Point(49, 1043);
+            btn_Caja.Location = new Point(49, 1111);
             btn_Caja.Name = "btn_Caja";
             btn_Caja.Size = new Size(299, 50);
             btn_Caja.TabIndex = 10;
@@ -523,7 +523,7 @@
             btn_Productos.ForeColor = SystemColors.ButtonHighlight;
             btn_Productos.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Productos.ImageIndex = 0;
-            btn_Productos.Location = new Point(49, 986);
+            btn_Productos.Location = new Point(49, 1054);
             btn_Productos.Name = "btn_Productos";
             btn_Productos.Size = new Size(299, 57);
             btn_Productos.TabIndex = 9;
@@ -541,7 +541,7 @@
             btn_Compras.ForeColor = SystemColors.ButtonHighlight;
             btn_Compras.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Compras.ImageIndex = 14;
-            btn_Compras.Location = new Point(49, 936);
+            btn_Compras.Location = new Point(49, 1004);
             btn_Compras.Name = "btn_Compras";
             btn_Compras.Size = new Size(299, 50);
             btn_Compras.TabIndex = 8;
@@ -559,7 +559,7 @@
             btn_Proveedores.ForeColor = SystemColors.ButtonHighlight;
             btn_Proveedores.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Proveedores.ImageIndex = 2;
-            btn_Proveedores.Location = new Point(49, 886);
+            btn_Proveedores.Location = new Point(49, 954);
             btn_Proveedores.Name = "btn_Proveedores";
             btn_Proveedores.Size = new Size(299, 50);
             btn_Proveedores.TabIndex = 7;
@@ -577,7 +577,7 @@
             btn_Clientes.ForeColor = SystemColors.ButtonHighlight;
             btn_Clientes.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Clientes.ImageIndex = 3;
-            btn_Clientes.Location = new Point(-3, 100);
+            btn_Clientes.Location = new Point(-3, 168);
             btn_Clientes.Name = "btn_Clientes";
             btn_Clientes.Size = new Size(299, 50);
             btn_Clientes.TabIndex = 6;
@@ -596,7 +596,7 @@
             btn_Usuario.ForeColor = SystemColors.ButtonHighlight;
             btn_Usuario.ImageAlign = ContentAlignment.MiddleLeft;
             btn_Usuario.ImageIndex = 1;
-            btn_Usuario.Location = new Point(0, 53);
+            btn_Usuario.Location = new Point(0, 121);
             btn_Usuario.Name = "btn_Usuario";
             btn_Usuario.Size = new Size(299, 50);
             btn_Usuario.TabIndex = 5;
@@ -617,7 +617,7 @@
             button1.ForeColor = Color.White;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
             button1.ImageIndex = 15;
-            button1.Location = new Point(3, 3);
+            button1.Location = new Point(3, 71);
             button1.Name = "button1";
             button1.Size = new Size(299, 62);
             button1.TabIndex = 1;
@@ -632,7 +632,7 @@
             Panel_Hijo.Dock = DockStyle.Fill;
             Panel_Hijo.Location = new Point(299, 0);
             Panel_Hijo.Name = "Panel_Hijo";
-            Panel_Hijo.Size = new Size(1371, 824);
+            Panel_Hijo.Size = new Size(1371, 892);
             Panel_Hijo.TabIndex = 3;
             // 
             // panel1
@@ -649,7 +649,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1670, 824);
+            ClientSize = new Size(1670, 892);
             Controls.Add(Panel_Hijo);
             Controls.Add(Panel_Padre);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;

@@ -21,5 +21,10 @@ namespace Nk_Colletion_New
         {
 
         }
+
+        private void lbl_subtotal_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
