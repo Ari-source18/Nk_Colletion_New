@@ -51,10 +51,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             label10 = new Label();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -62,9 +62,15 @@
             label8 = new Label();
             guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
             pictureBox2 = new PictureBox();
             label9 = new Label();
             guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            label14 = new Label();
             label11 = new Label();
             label7 = new Label();
             label6 = new Label();
@@ -87,15 +93,9 @@
             label3 = new Label();
             guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
             guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            label14 = new Label();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column5 = new DataGridViewTextBoxColumn();
+            guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             guna2ShadowPanel2.SuspendLayout();
@@ -233,6 +233,31 @@
             guna2DataGridView1.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
             guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(110, 18, 32);
             // 
+            // Column1
+            // 
+            Column1.HeaderText = "Marca";
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Cantidad";
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Precio Compra";
+            Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Precio Venta";
+            Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Subtotal";
+            Column5.Name = "Column5";
+            // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.icons8_lista_24;
@@ -270,6 +295,16 @@
             guna2ShadowPanel2.ShadowColor = Color.Black;
             guna2ShadowPanel2.Size = new Size(918, 199);
             guna2ShadowPanel2.TabIndex = 33;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("PMingLiU-ExtB", 10F);
+            label14.Location = new Point(784, 165);
+            label14.Name = "label14";
+            label14.Size = new Size(40, 14);
+            label14.TabIndex = 55;
+            label14.Text = "Total:";
             // 
             // label11
             // 
@@ -414,9 +449,9 @@
             label5.Font = new Font("PMingLiU-ExtB", 10F);
             label5.Location = new Point(415, 52);
             label5.Name = "label5";
-            label5.Size = new Size(45, 14);
+            label5.Size = new Size(90, 14);
             label5.TabIndex = 42;
-            label5.Text = "Marca:";
+            label5.Text = "Tipo Producto:";
             // 
             // label4
             // 
@@ -587,32 +622,6 @@
             guna2ShadowPanel1.Size = new Size(918, 275);
             guna2ShadowPanel1.TabIndex = 32;
             // 
-            // guna2Separator1
-            // 
-            guna2Separator1.FillColor = Color.FromArgb(194, 154, 116);
-            guna2Separator1.Location = new Point(1, 94);
-            guna2Separator1.Name = "guna2Separator1";
-            guna2Separator1.Size = new Size(938, 2);
-            guna2Separator1.TabIndex = 35;
-            // 
-            // guna2ComboBox2
-            // 
-            guna2ComboBox2.BackColor = Color.Transparent;
-            guna2ComboBox2.BorderRadius = 8;
-            guna2ComboBox2.CustomizableEdges = customizableEdges23;
-            guna2ComboBox2.DrawMode = DrawMode.OwnerDrawFixed;
-            guna2ComboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-            guna2ComboBox2.FocusedColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox2.Font = new Font("Segoe UI", 10F);
-            guna2ComboBox2.ForeColor = Color.FromArgb(68, 88, 112);
-            guna2ComboBox2.ItemHeight = 30;
-            guna2ComboBox2.Location = new Point(122, 86);
-            guna2ComboBox2.Name = "guna2ComboBox2";
-            guna2ComboBox2.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2ComboBox2.Size = new Size(180, 36);
-            guna2ComboBox2.TabIndex = 53;
-            // 
             // guna2Button3
             // 
             guna2Button3.BorderColor = Color.White;
@@ -633,40 +642,31 @@
             guna2Button3.TabIndex = 54;
             guna2Button3.Text = "Agregar producto";
             // 
-            // label14
+            // guna2ComboBox2
             // 
-            label14.AutoSize = true;
-            label14.Font = new Font("PMingLiU-ExtB", 10F);
-            label14.Location = new Point(784, 165);
-            label14.Name = "label14";
-            label14.Size = new Size(40, 14);
-            label14.TabIndex = 55;
-            label14.Text = "Total:";
+            guna2ComboBox2.BackColor = Color.Transparent;
+            guna2ComboBox2.BorderRadius = 8;
+            guna2ComboBox2.CustomizableEdges = customizableEdges23;
+            guna2ComboBox2.DrawMode = DrawMode.OwnerDrawFixed;
+            guna2ComboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            guna2ComboBox2.FocusedColor = Color.FromArgb(94, 148, 255);
+            guna2ComboBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2ComboBox2.Font = new Font("Segoe UI", 10F);
+            guna2ComboBox2.ForeColor = Color.FromArgb(68, 88, 112);
+            guna2ComboBox2.ItemHeight = 30;
+            guna2ComboBox2.Location = new Point(122, 86);
+            guna2ComboBox2.Name = "guna2ComboBox2";
+            guna2ComboBox2.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2ComboBox2.Size = new Size(180, 36);
+            guna2ComboBox2.TabIndex = 53;
             // 
-            // Column1
+            // guna2Separator1
             // 
-            Column1.HeaderText = "Marca";
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Cantidad";
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Precio Compra";
-            Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Precio Venta";
-            Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            Column5.HeaderText = "Subtotal";
-            Column5.Name = "Column5";
+            guna2Separator1.FillColor = Color.FromArgb(194, 154, 116);
+            guna2Separator1.Location = new Point(1, 94);
+            guna2Separator1.Name = "guna2Separator1";
+            guna2Separator1.Size = new Size(938, 2);
+            guna2Separator1.TabIndex = 35;
             // 
             // Form5
             // 
